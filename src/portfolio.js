@@ -3,6 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import ZetaglobalLogo from "./assets/images/Zetaglobal.svg";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -27,7 +28,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: false // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -143,7 +144,7 @@ const workExperiences = {
     {
       role: "Campaign Manager",
       company: "Zeta Global",
-      companylogo: require("./assets/images/Zetaglobal.svg"),
+      companylogo: ZetaglobalLogo,
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -339,8 +340,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8147135485",
+  email_address: "mayankdixit460@gmail.com"
 };
 
 // Twitter Section
