@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Myportfoliwebsite/static/css/main.0908075a.css",
-    "main.js": "/Myportfoliwebsite/static/js/main.35373a7d.js",
+    "main.js": "/Myportfoliwebsite/static/js/main.b3421c85.js",
     "static/css/64.bba8fa55.chunk.css": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.bda0d7b7.chunk.js": "/Myportfoliwebsite/static/js/769.bda0d7b7.chunk.js",
+    "static/js/769.e3636942.chunk.js": "/Myportfoliwebsite/static/js/769.e3636942.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/Myportfoliwebsite/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/Myportfoliwebsite/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/Myportfoliwebsite/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -24,14 +24,14 @@
     "static/media/Zetaglobal.svg": "/Myportfoliwebsite/static/media/Zetaglobal.1310f43620da3efd04b41f4049be202b.svg",
     "static/media/talksCardBack.svg": "/Myportfoliwebsite/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.0908075a.css.map": "/Myportfoliwebsite/static/css/main.0908075a.css.map",
-    "main.35373a7d.js.map": "/Myportfoliwebsite/static/js/main.35373a7d.js.map",
+    "main.b3421c85.js.map": "/Myportfoliwebsite/static/js/main.b3421c85.js.map",
     "64.bba8fa55.chunk.css.map": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css.map",
-    "769.bda0d7b7.chunk.js.map": "/Myportfoliwebsite/static/js/769.bda0d7b7.chunk.js.map"
+    "769.e3636942.chunk.js.map": "/Myportfoliwebsite/static/js/769.e3636942.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0908075a.css",
-    "static/js/main.35373a7d.js"
+    "static/js/main.b3421c85.js"
   ]
 }
