@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Myportfoliwebsite/static/css/main.ef9bbe45.css",
-    "main.js": "/Myportfoliwebsite/static/js/main.31170cfa.js",
+    "main.js": "/Myportfoliwebsite/static/js/main.baa68d8d.js",
     "static/css/64.bba8fa55.chunk.css": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css",
@@ -21,7 +21,7 @@
     "static/media/HP_logo_2025.svg": "/Myportfoliwebsite/static/media/HP_logo_2025.89242356daff30b121dcd288028f9e4e.svg",
     "static/media/talksCardBack.svg": "/Myportfoliwebsite/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ef9bbe45.css.map": "/Myportfoliwebsite/static/css/main.ef9bbe45.css.map",
-    "main.31170cfa.js.map": "/Myportfoliwebsite/static/js/main.31170cfa.js.map",
+    "main.baa68d8d.js.map": "/Myportfoliwebsite/static/js/main.baa68d8d.js.map",
     "64.bba8fa55.chunk.css.map": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.ef9bbe45.css",
-    "static/js/main.31170cfa.js"
+    "static/js/main.baa68d8d.js"
   ]
 }
