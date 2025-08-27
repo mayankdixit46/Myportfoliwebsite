@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Myportfoliwebsite/static/css/main.ef9bbe45.css",
-    "main.js": "/Myportfoliwebsite/static/js/main.614bdd74.js",
+    "main.js": "/Myportfoliwebsite/static/js/main.18dab920.js",
     "static/css/64.bba8fa55.chunk.css": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css",
@@ -12,7 +12,7 @@
     "static/media/Decisioning_Consultant.png": "/Myportfoliwebsite/static/media/Decisioning_Consultant.3bd5f009cf638b9a38c2.png",
     "static/media/contactMailDark.svg": "/Myportfoliwebsite/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/Myportfoliwebsite/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/googleAssistantLogo.webp": "/Myportfoliwebsite/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/google-logo.png": "/Myportfoliwebsite/static/media/google-logo.85707a335f8d3583332c.png",
     "static/media/skill.svg": "/Myportfoliwebsite/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/Myportfoliwebsite/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/Myportfoliwebsite/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
@@ -22,7 +22,7 @@
     "static/media/HP_logo_2025.svg": "/Myportfoliwebsite/static/media/HP_logo_2025.89242356daff30b121dcd288028f9e4e.svg",
     "static/media/talksCardBack.svg": "/Myportfoliwebsite/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ef9bbe45.css.map": "/Myportfoliwebsite/static/css/main.ef9bbe45.css.map",
-    "main.614bdd74.js.map": "/Myportfoliwebsite/static/js/main.614bdd74.js.map",
+    "main.18dab920.js.map": "/Myportfoliwebsite/static/js/main.18dab920.js.map",
     "64.bba8fa55.chunk.css.map": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.ef9bbe45.css",
-    "static/js/main.614bdd74.js"
+    "static/js/main.18dab920.js"
   ]
 }
