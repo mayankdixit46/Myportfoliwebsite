@@ -149,19 +149,19 @@
 
 .chatbot-input {
   display: flex;
-  padding: 20px;
+  padding: 16px;
   background-color: $lightBackground2;
   border-top: 1px solid #e0e0e0;
 
   input {
     flex: 1;
-    padding: 20px 24px;
+    padding: 24px 28px;
     border: 2px solid #e0e0e0;
     border-radius: 28px;
     font-size: 18px;
     outline: none;
     font-family: "Google Sans Regular";
-    min-height: 64px;
+    min-height: 70px;
     font-weight: 500;
 
     &::placeholder {
