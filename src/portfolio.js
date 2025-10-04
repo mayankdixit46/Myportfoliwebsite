@@ -3,8 +3,8 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import ZetaglobalLogo from "./assets/images/Zetaglobal.svg";
-import PegasystemsLogo from "./assets/images/pega-logo.svg";
+import ZetaglobalLogo from "./assets/images/zeta-global-logo.jpeg";
+import PegasystemsLogo from "./assets/images/pega-company-logo.png";
 import HPLogo from "./assets/images/HP_logo_2025.svg";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -218,50 +218,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Pega Certified Decisioning Consultant",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Professional certification in Pega Customer Decision Hub, specializing in Next-Best-Action strategies and real-time customer decisioning.",
+      image: require("./assets/images/Decisioning_Consultant.png"),
+      imageAlt: "Pega Certified Decisioning Consultant Badge",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certificate",
+          url: "/Myportfoliwebsite/1746868647406.pdf"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google AI Essentials",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Professional certification in Google AI fundamentals, covering machine learning concepts, generative AI, and responsible AI practices for business applications.",
+      image: require("./assets/images/google-logo.png"),
+      imageAlt: "Google AI Essentials Certification Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certificate",
+          url: "/Myportfoliwebsite/google-ai-essentials-cert.pdf"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "GTM India Hackathon Participant",
+      subtitle: "Built a Hackathon project integrating PromoNest, automating discount code tracking and enabling real-time insights with GenAI for Pega Events team",
+      image: PegasystemsLogo,
+      imageAlt: "Pega Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certificate",
+          url: "/Myportfoliwebsite/gtm-hackathon-cert.pdf"
         }
       ]
     }
@@ -275,7 +266,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -331,7 +322,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -346,7 +337,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
