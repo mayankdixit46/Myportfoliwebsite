@@ -4,6 +4,8 @@
 
 import emoji from "react-easy-emoji";
 import ZetaglobalLogo from "./assets/images/Zetaglobal.svg";
+import PegasystemsLogo from "./assets/images/pega-logo.svg";
+import HPLogo from "./assets/images/HP_logo_2025.svg";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -145,26 +147,23 @@ const workExperiences = {
       role: "Campaign Manager",
       company: "Zeta Global",
       companylogo: ZetaglobalLogo,
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "July 2021 – September 2023",
+      desc: "2.5 years of experience in Salesforce Marketing Cloud, specializing in email development, management, and quality assurance. Proven ability to replicate emails using XD and Figma files and proficient in conducting basic image editing using Adobe Photoshop. Committed to delivering exceptional results through hard work, attention to detail, and continuous improvement.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Salesforce Marketing Cloud: Proficient in utilizing Email Studio for email marketing campaigns.",
+        "HTML and CSS: Skilled in building visually appealing and responsive emails using HTML and CSS.",
+        "SQL Basics: Proficient in utilizing SQL to check database sizes and perform basic queries.",
+        "Audience Builder: Experienced in utilizing Audience Builder to create targeted and segmented audiences.",
+        "Automation Studio: Proficient in using Automation Studio to build ad-hoc audiences and automate marketing processes.",
+        "Ampscript: Skilled in using Ampscript, a scripting language specific to Salesforce Marketing Cloud, for dynamic content personalization and advanced email customization."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Email Marketing Specialist",
+      company: "Pegasystems Inc.",
+      companylogo: PegasystemsLogo,
+      date: "October 2023 – Present",
+      desc: "At Pegasystems Inc., I manage global email marketing initiatives using Pega's built-in Customer Decision Hub (CDH) software. My responsibilities include overseeing Next-Best-Action (NBA) email offers for both inbound and outbound channels, executing email outbound campaigns, and generating comprehensive email performance reports. I also focus on product enhancements, develop and maintain HTML email templates, conduct market research, and manage stakeholder relationships to ensure alignment with business objectives."
     }
   ]
 };
@@ -173,36 +172,35 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Major email template migration projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: HPLogo,
+      projectName: "HP (EMEA)",
+      projectDesc: "Migrated the template for HP (EMEA) to the updated brand guidelines with thorough testing and approvals from client",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.hp.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: PegasystemsLogo,
+      projectName: "PegaWorld Event",
+      projectDesc: "Introduction to GIF in emails increasing registrations and awareness for the flagship event PegaWorld",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.pega.com/events/pegaworld"
         }
       ]
     }
@@ -292,7 +290,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -311,7 +309,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -324,7 +322,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
