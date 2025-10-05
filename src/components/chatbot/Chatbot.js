@@ -27,8 +27,16 @@ const Chatbot = () => {
   };
 
   useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
+    const handleResize = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const getBotResponse = (userInput) => {
     const input = userInput.toLowerCase();
