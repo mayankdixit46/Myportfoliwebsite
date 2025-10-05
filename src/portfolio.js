@@ -39,7 +39,7 @@ const socialMediaLinks = {
   github: "https://github.com/mayankdixit46",
   linkedin: "https://www.linkedin.com/in/mayank-dixit-8869491b9/",
   gmail: "mayankdixit460@gmail.com",
-  
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +49,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "HUNGRY FULL STACK DEVELOPER IN THE MAKING, EXPLORING MODERN TECH STACKS",
+  subTitle:
+    "HUNGRY FULL STACK DEVELOPER IN THE MAKING, EXPLORING MODERN TECH STACKS",
   skills: [
     emoji(
       "⚡ Building responsive front-end UIs for real-life portfolio projects"
     ),
-    emoji("⚡ Working on full-stack apps with RESTful APIs and dynamic front ends"),
     emoji(
-      "⚡ Developing internal tools that automate workflows & track data"
-    )
+      "⚡ Working on full-stack apps with RESTful APIs and dynamic front ends"
+    ),
+    emoji("⚡ Developing internal tools that automate workflows & track data")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -72,7 +73,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -85,19 +86,16 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-   
-    
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -109,11 +107,10 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sri Krishna Institute of Technology",
-      
+
       subHeader: "Bachelor of Mechanical Engineering",
-      duration: "2016 - 2020",
-    },
-    
+      duration: "2016 - 2020"
+    }
   ]
 };
 
@@ -185,7 +182,8 @@ const bigProjects = {
     {
       image: HPLogo,
       projectName: "HP (EMEA)",
-      projectDesc: "Migrated the template for HP (EMEA) to the updated brand guidelines with thorough testing and approvals from client",
+      projectDesc:
+        "Migrated the template for HP (EMEA) to the updated brand guidelines with thorough testing and approvals from client",
       footerLink: [
         {
           name: "Visit Website",
@@ -196,7 +194,8 @@ const bigProjects = {
     {
       image: PegasystemsLogo,
       projectName: "PegaWorld Event",
-      projectDesc: "Introduction to GIF in emails increasing registrations and awareness for the flagship event PegaWorld",
+      projectDesc:
+        "Introduction to GIF in emails increasing registrations and awareness for the flagship event PegaWorld",
       footerLink: [
         {
           name: "Visit Website",
@@ -246,7 +245,8 @@ const achievementSection = {
 
     {
       title: "GTM India Hackathon Participant",
-      subtitle: "Built a Hackathon project integrating PromoNest, automating discount code tracking and enabling real-time insights with GenAI for Pega Events team",
+      subtitle:
+        "Built a Hackathon project integrating PromoNest, automating discount code tracking and enabling real-time insights with GenAI for Pega Events team",
       image: PegasystemsLogo,
       imageAlt: "Pega Logo",
       footerLink: [
