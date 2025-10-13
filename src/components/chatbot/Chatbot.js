@@ -191,7 +191,7 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">
-            <h3>Ask our AI anything</h3>
+            <h3>Ask anything about Mayank</h3>
             <button className="close-btn" onClick={toggleChat}>
               ×
             </button>
