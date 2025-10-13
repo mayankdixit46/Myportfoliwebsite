@@ -191,7 +191,7 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">
-            <h3>Chat with Mayank's Assistant</h3>
+            <h3>Ask our AI anything</h3>
             <button className="close-btn" onClick={toggleChat}>
               ×
             </button>
@@ -217,9 +217,9 @@ const Chatbot = () => {
               value={inputValue}
               onChange={e => setInputValue(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder="Ask me anything..."
+              placeholder="Ask me anything about your projects"
             />
-            <button onClick={handleSend}>Send</button>
+            <button onClick={handleSend}>➤</button>
           </div>
         </div>
       )}
