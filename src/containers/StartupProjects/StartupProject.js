@@ -69,15 +69,13 @@ export default function StartupProject() {
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
-                            <span
+                            <button
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
+                              className="glow-on-hover"
                               onClick={() => openUrlInNewTab(link.url)}
                             >
                               {link.name}
-                            </span>
+                            </button>
                           );
                         })}
                       </div>
