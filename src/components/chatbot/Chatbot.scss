@@ -221,38 +221,40 @@
 
 .chatbot-input {
   display: flex;
-  padding: 20px;
+  padding: 24px;
   background: white;
   border-top: 1px solid #e5e7eb;
-  gap: 12px;
+  gap: 16px;
   align-items: center;
+  min-height: 88px;
 
   input {
     flex: 1;
-    padding: 14px 20px;
-    border: 1px solid #d1d5db;
-    border-radius: 24px;
-    font-size: 15px;
+    padding: 16px 24px;
+    border: 2px solid #d1d5db;
+    border-radius: 28px;
+    font-size: 16px;
     outline: none;
     background: white;
     color: #111827;
     transition: all 0.2s ease;
-    min-height: 48px;
+    height: 56px;
     line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
     &::placeholder {
       color: #9ca3af;
-      font-size: 15px;
+      font-size: 16px;
     }
 
     &:focus {
       border-color: #3b82f6;
-      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+      box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
     }
   }
 
   .send-btn {
-    padding: 12px;
+    padding: 0;
     background: #3b82f6;
     color: white;
     border: none;
@@ -261,13 +263,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     transition: all 0.2s ease;
     flex-shrink: 0;
 
     &:hover {
       background: #2563eb;
+      transform: scale(1.05);
     }
 
     &:active {
@@ -275,8 +278,8 @@
     }
 
     svg {
-      width: 20px;
-      height: 20px;
+      width: 22px;
+      height: 22px;
     }
   }
 }
@@ -338,14 +341,17 @@
       background-color: lighten($darkBackground, 10%);
       border-color: lighten($darkBackground, 15%);
       color: $textColorDark;
+      height: 56px;
+      border-width: 2px;
 
       &::placeholder {
-        color: rgba(255, 255, 255, 0.4);
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
       }
 
       &:focus {
         border-color: $buttonColor;
-        box-shadow: 0 0 0 3px rgba(85, 25, 139, 0.2);
+        box-shadow: 0 0 0 4px rgba(85, 25, 139, 0.2);
       }
     }
   }
@@ -383,7 +389,18 @@
   }
 
   .chatbot-input {
-    padding: 12px 16px;
+    padding: 20px 16px;
+    min-height: 80px;
+
+    input {
+      height: 52px;
+      font-size: 16px;
+    }
+
+    .send-btn {
+      width: 52px;
+      height: 52px;
+    }
   }
 
   .message {
