@@ -202,6 +202,19 @@ const Chatbot = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleClear = () => {
+    setMessages([
+      {
+        text: `Hi! I'm Mayank's virtual assistant. Ask me about his skills, experience, education, projects, or how to contact him!`,
+        isBot: true,
+        timestamp: new Date().toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit"
+        })
+      }
+    ]);
+  };
+
   return (
     <div className="chatbot-container">
       {!isOpen && (
@@ -213,60 +226,65 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">
-            <div className="header-content">
-              <span className="bot-avatar">🤖</span>
-              <div className="header-info">
-                <h2>Mayank's Assistant</h2>
-                <p className="status">Active now</p>
-              </div>
-            </div>
+            <span className="globe-icon">🌐</span>
+            <strong>Talk with Me !!! (You: Green / Bot: White)</strong>
             <button className="close-btn" onClick={toggleChat}>
               ×
             </button>
           </div>
 
           <div className="chatbot-messages">
-            {messages.map((msg, index) => (
-              <div
-                key={index}
-                className={`message ${
-                  msg.isBot ? "bot-message" : "user-message"
-                }`}
-              >
-                {msg.isBot && <span className="message-avatar">🤖</span>}
-                <div className="message-content">
-                  <div className="message-bubble">{msg.text}</div>
-                  <p className="message-timestamp">{msg.timestamp}</p>
-                </div>
-                {!msg.isBot && <span className="message-avatar">👤</span>}
-              </div>
-            ))}
-            <div ref={messagesEndRef} />
+            <ul className="media-list">
+              {messages.map((msg, index) => (
+                <li key={index} className="media">
+                  <div className="media-body">
+                    <div className="media">
+                      <div
+                        className={`message-text ${
+                          msg.isBot ? "bot-message" : "user-message"
+                        }`}
+                      >
+                        {msg.text}
+                        <hr />
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              ))}
+              <div ref={messagesEndRef} />
+            </ul>
           </div>
 
-          <div className="chatbot-input">
-            <input
-              type="text"
-              value={inputValue}
-              onChange={e => setInputValue(e.target.value)}
-              onKeyPress={handleKeyPress}
-              placeholder="Type a message..."
-            />
-            <button onClick={handleSend} className="send-btn">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <line x1="22" y1="2" x2="11" y2="13"></line>
-                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-              </svg>
-            </button>
+          <div className="chatbot-footer">
+            <form onSubmit={e => e.preventDefault()} className="chatbot-form">
+              <div className="input-group">
+                <input
+                  type="text"
+                  value={inputValue}
+                  onChange={e => setInputValue(e.target.value)}
+                  onKeyPress={handleKeyPress}
+                  placeholder="Enter Message"
+                  className="form-control"
+                  autoFocus
+                />
+                <span className="input-group-btn">
+                  <button
+                    type="button"
+                    className="btn btn-send"
+                    onClick={handleSend}
+                  >
+                    Send
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-clear"
+                    onClick={handleClear}
+                  >
+                    Clear
+                  </button>
+                </span>
+              </div>
+            </form>
           </div>
         </div>
       )}
