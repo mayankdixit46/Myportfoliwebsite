@@ -221,25 +221,28 @@
 
 .chatbot-input {
   display: flex;
-  padding: 16px 20px;
+  padding: 20px;
   background: white;
   border-top: 1px solid #e5e7eb;
-  gap: 8px;
+  gap: 12px;
   align-items: center;
 
   input {
     flex: 1;
-    padding: 12px 16px;
+    padding: 14px 20px;
     border: 1px solid #d1d5db;
     border-radius: 24px;
-    font-size: 14px;
+    font-size: 15px;
     outline: none;
     background: white;
     color: #111827;
     transition: all 0.2s ease;
+    min-height: 48px;
+    line-height: 1.5;
 
     &::placeholder {
       color: #9ca3af;
+      font-size: 15px;
     }
 
     &:focus {
@@ -249,7 +252,7 @@
   }
 
   .send-btn {
-    padding: 10px;
+    padding: 12px;
     background: #3b82f6;
     color: white;
     border: none;
@@ -258,8 +261,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     transition: all 0.2s ease;
     flex-shrink: 0;
 
@@ -272,8 +275,8 @@
     }
 
     svg {
-      width: 18px;
-      height: 18px;
+      width: 20px;
+      height: 20px;
     }
   }
 }
