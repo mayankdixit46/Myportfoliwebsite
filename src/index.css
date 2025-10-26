@@ -36,8 +36,8 @@ h1, h2, h3, h4, h5, h6,
 .achievement-heading,
 .blog-heading,
 .contact-heading {
-  font-family: "duality", sans-serif;
-  font-weight: 400;
+  font-family: "forma-djr-micro", sans-serif;
+  font-weight: 200;
   font-style: normal;
 }
 /* Media Query */
