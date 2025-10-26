@@ -16,7 +16,11 @@ const Chatbot = () => {
   const [messages, setMessages] = useState([
     {
       text: `Hi! I'm Mayank's virtual assistant. Ask me about his skills, experience, education, projects, or how to contact him!`,
-      isBot: true
+      isBot: true,
+      timestamp: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit"
+      })
     }
   ]);
   const [inputValue, setInputValue] = useState("");
@@ -37,6 +41,10 @@ const Chatbot = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
 
   const getBotResponse = userInput => {
     const input = userInput.toLowerCase();
@@ -159,11 +167,25 @@ const Chatbot = () => {
   const handleSend = () => {
     if (!inputValue.trim()) return;
 
-    const userMessage = {text: inputValue, isBot: false};
+    const userMessage = {
+      text: inputValue,
+      isBot: false,
+      timestamp: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit"
+      })
+    };
     setMessages(prev => [...prev, userMessage]);
 
     setTimeout(() => {
-      const botResponse = {text: getBotResponse(inputValue), isBot: true};
+      const botResponse = {
+        text: getBotResponse(inputValue),
+        isBot: true,
+        timestamp: new Date().toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit"
+        })
+      };
       setMessages(prev => [...prev, botResponse]);
     }, 500);
 
@@ -191,7 +213,13 @@ const Chatbot = () => {
       {isOpen && (
         <div className="chatbot-window">
           <div className="chatbot-header">
-            <h3>Ask anything about Mayank</h3>
+            <div className="header-content">
+              <span className="bot-avatar">🤖</span>
+              <div className="header-info">
+                <h2>Mayank's Assistant</h2>
+                <p className="status">Active now</p>
+              </div>
+            </div>
             <button className="close-btn" onClick={toggleChat}>
               ×
             </button>
@@ -205,7 +233,12 @@ const Chatbot = () => {
                   msg.isBot ? "bot-message" : "user-message"
                 }`}
               >
-                <div className="message-bubble">{msg.text}</div>
+                {msg.isBot && <span className="message-avatar">🤖</span>}
+                <div className="message-content">
+                  <div className="message-bubble">{msg.text}</div>
+                  <p className="message-timestamp">{msg.timestamp}</p>
+                </div>
+                {!msg.isBot && <span className="message-avatar">👤</span>}
               </div>
             ))}
             <div ref={messagesEndRef} />
@@ -217,9 +250,23 @@ const Chatbot = () => {
               value={inputValue}
               onChange={e => setInputValue(e.target.value)}
               onKeyPress={handleKeyPress}
-              placeholder="Ask me anything about your projects"
+              placeholder="Type a message..."
             />
-            <button onClick={handleSend}>➤</button>
+            <button onClick={handleSend} className="send-btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
           </div>
         </div>
       )}
