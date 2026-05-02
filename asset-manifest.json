@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/Myportfoliwebsite/static/css/main.ed024d20.css",
-    "main.js": "/Myportfoliwebsite/static/js/main.cbded50e.js",
+    "main.js": "/Myportfoliwebsite/static/js/main.58698e97.js",
     "static/css/64.bba8fa55.chunk.css": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.2ab14b1d.chunk.js": "/Myportfoliwebsite/static/js/769.2ab14b1d.chunk.js",
+    "static/js/769.8e638a1b.chunk.js": "/Myportfoliwebsite/static/js/769.8e638a1b.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/Myportfoliwebsite/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/pega-company-logo.png": "/Myportfoliwebsite/static/media/pega-company-logo.c86f341be25d4d9b6437.png",
     "static/media/Agustina.woff": "/Myportfoliwebsite/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/marky-award.jpg": "/Myportfoliwebsite/static/media/marky-award.243cd28cd04004abc996.jpg",
     "static/media/manOnTable.svg": "/Myportfoliwebsite/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/Decisioning_Consultant.png": "/Myportfoliwebsite/static/media/Decisioning_Consultant.3bd5f009cf638b9a38c2.png",
     "static/media/contactMailDark.svg": "/Myportfoliwebsite/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -20,14 +21,14 @@
     "static/media/HP_logo_2025.svg": "/Myportfoliwebsite/static/media/HP_logo_2025.89242356daff30b121dcd288028f9e4e.svg",
     "static/media/talksCardBack.svg": "/Myportfoliwebsite/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ed024d20.css.map": "/Myportfoliwebsite/static/css/main.ed024d20.css.map",
-    "main.cbded50e.js.map": "/Myportfoliwebsite/static/js/main.cbded50e.js.map",
+    "main.58698e97.js.map": "/Myportfoliwebsite/static/js/main.58698e97.js.map",
     "64.bba8fa55.chunk.css.map": "/Myportfoliwebsite/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Myportfoliwebsite/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Myportfoliwebsite/static/css/769.b3cbb36b.chunk.css.map",
-    "769.2ab14b1d.chunk.js.map": "/Myportfoliwebsite/static/js/769.2ab14b1d.chunk.js.map"
+    "769.8e638a1b.chunk.js.map": "/Myportfoliwebsite/static/js/769.8e638a1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed024d20.css",
-    "static/js/main.cbded50e.js"
+    "static/js/main.58698e97.js"
   ]
 }
